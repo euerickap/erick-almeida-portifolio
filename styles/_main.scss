@@ -1,0 +1,63 @@
+.main {
+  gap: 5rem;
+  display: flex;
+  padding: 0 2rem;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+
+  > img {
+    width: 10rem;
+    height: 10rem;
+    user-select: none;
+    pointer-events: none;
+    border-radius: 0.25rem;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    section {
+      &.presentation {
+        > div {
+          display: flex;
+          align-items: flex-end;
+          height: 10rem;
+
+          span {
+          }
+
+          &.techs {
+          }
+
+          &.icons {
+          }
+
+          &.resume {
+          }
+        }
+      }
+
+      &.about {
+        &.biography {
+        }
+      }
+
+      &.portifolio {
+        h3 {
+        }
+
+        &.works {
+        }
+      }
+
+      &.contact {
+        span {
+          a {
+          }
+        }
+      }
+    }
+  }
+}

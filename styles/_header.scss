@@ -1,0 +1,44 @@
+.header {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+
+  &_logo {
+    color: $textGlobal;
+    letter-spacing: 2.88px;
+    font-family: "Six Caps", sans-serif;
+    font-size: 2.25rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &_links {
+    display: flex;
+    align-items: center;
+
+    li {
+      &:last-child a {
+        background: rgb(18, 18, 20);
+        background: linear-gradient(
+          30deg,
+          rgba(18, 18, 20, 1) 0%,
+          rgba(255, 255, 255, 0.04525560224089631) 100%
+        );
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        height: 2rem;
+        color: $textGlobal;
+        font-size: 0.875rem;
+        padding: 0 1.25rem;
+      }
+    }
+  }
+}

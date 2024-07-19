@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Six+Caps&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="stylesheet" href="/styles/global.css" />
     <title>Erick Almeida - Front-end Developer</title>
   </head>
@@ -23,16 +24,73 @@
           <li><a href="mailto:erick.almeida86@hotmail.com">Contato</a></li>
         </ul>
       </header>
+
       <main class="main">
-        <img src="" alt="" />
-        <div></div>
+        <img
+          src="https://github.com/euerickap.png"
+          alt="Foto de perfil Erick Almeida"
+          class="main_photo"
+        />
+
+        <div>
+          <section class="presentation">
+            <div>
+              <h1>Erick Almeida</h1>
+            </div>
+
+            <span>
+              Desenvolvedor Front-End
+              <br />
+              São Paulo, SP
+            </span>
+
+            <ul class="techs"></ul>
+            <ul class="icons"></ul>
+
+            <a href="" class="resume">Currículo</a>
+          </section>
+
+          <section class="about">
+            <h2>Sobre</h2>
+
+            <div class="biography"></div>
+          </section>
+
+          <section class="portifolio">
+            <h2>Portifólio</h2>
+            <h3>Veja meus projetos desenvolvidos até aqui:</h3>
+
+            <ul class="works"></ul>
+          </section>
+
+          <section class="contact">
+            <h2>Contato</h2>
+
+            <span>
+              Email:
+              <a href="mailto:erick.almeida86@hotmail.com">
+                erick.almeida86@hotmail.com
+              </a>
+            </span>
+          </section>
+        </div>
       </main>
+
       <footer class="footer">
-        <span></span>
-        <button></button>
+        <span>
+          @<span class="current-year"></span> - Erick de Almeida Pereira</span
+        >
+        <button onclick="handleGoToTop()">
+          <i class="ph ph-arrow-up"></i>
+        </button>
       </footer>
     </div>
 
-    <script src="/page/index.js"></script>
+    <script src="/scripts/techs.js"></script>
+    <script src="/scripts/social-media.js"></script>
+    <script src="/scripts/biography.js"></script>
+    <script src="/scripts/works.js"></script>
+    <script src="/scripts/current-year.js"></script>
+    <script src="/scripts/go-to-top.js"></script>
   </body>
 </html>

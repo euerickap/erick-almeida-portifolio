@@ -1,0 +1,29 @@
+.footer {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+
+  span {
+    font-size: 0.875rem;
+  }
+
+  button {
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    background: rgb(18, 18, 20);
+    background: linear-gradient(
+      30deg,
+      rgba(18, 18, 20, 1) 0%,
+      rgba(255, 255, 255, 0.04525560224089631) 100%
+    );
+
+    i {
+      font-size: 1.375rem;
+      color: $textGlobal;
+    }
+  }
+}
