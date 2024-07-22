@@ -30,5 +30,5 @@ icons.forEach((item) => {
 
   a.appendChild(i);
   li.appendChild(a);
-  techsList.appendChild(li);
+  iconsList.appendChild(li);
 });
