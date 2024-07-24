@@ -22,13 +22,28 @@
     align-items: center;
 
     li {
+      &:first-child a {
+        color: $textGlobalSecundary;
+        transition-duration: $transition;
+
+        &:hover {
+          color: $textGlobal;
+        }
+      }
+
       &:last-child a {
-        background: rgb(18, 18, 20);
+        color: $textGlobal;
+        background: rgb(24, 24, 27);
         background: linear-gradient(
           30deg,
-          rgba(18, 18, 20, 1) 0%,
-          rgba(255, 255, 255, 0.04525560224089631) 100%
+          rgba(24, 24, 27, 1) 0%,
+          rgba(39, 39, 42, 1) 100%
         );
+        transition-duration: $transition;
+
+        &:hover {
+          color: $textGlobalSecundary;
+        }
       }
 
       a {

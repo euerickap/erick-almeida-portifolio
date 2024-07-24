@@ -1,0 +1,50 @@
+@media (max-width: "630px") {
+  .main {
+    gap: 2rem;
+    flex-direction: column;
+
+    > div {
+      section {
+        &.presentation > div {
+          height: inherit;
+        }
+
+        &.portifolio {
+          .works {
+            li {
+              a {
+                img {
+                  height: 12rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: "540px") {
+  .main {
+    > div {
+      section {
+        &.portifolio {
+          .works {
+            gap: 2rem;
+            grid-template-columns: 1fr;
+
+            li {
+              a {
+                img {
+                  height: 12rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
