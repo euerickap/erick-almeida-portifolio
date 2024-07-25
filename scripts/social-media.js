@@ -1,18 +1,18 @@
 const icons = [
   {
-    path: "",
+    path: "https://github.com/euerickap",
     className: "ph ph-github-logo",
   },
   {
-    path: "",
+    path: "https://www.linkedin.com/in/erick-frontend/",
     className: "ph ph-linkedin-logo",
   },
   {
-    path: "",
+    path: "mailto:erick.almeida.86@gmail.com",
     className: "ph ph-envelope-simple",
   },
   {
-    path: "",
+    path: "https://www.instagram.com/euerickap/",
     className: "ph ph-instagram-logo",
   },
 ];
